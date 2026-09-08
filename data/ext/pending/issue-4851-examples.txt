@@ -22,7 +22,11 @@ JSON:
   "url": "https://arxiv.org/pdf/2107.14330",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "encodingFormat": "application/pdf",
-  "sourceFile": "https://arxiv.org/src/2107.14330"
+  "sourceFile": {
+    "@type": "MediaObject",
+    "contentUrl": "https://arxiv.org/src/2107.14330",
+    "encodingFormat": "application/x-tar"
+  }
 }
 </script>
 

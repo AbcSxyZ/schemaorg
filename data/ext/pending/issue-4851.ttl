@@ -6,6 +6,6 @@
     rdfs:label "sourceFile" ;
     :domainIncludes :CreativeWork ;
     :isPartOf <https://pending.schema.org> ;
-    :rangeIncludes :URL ;
+    :rangeIncludes :URL, :MediaObject ;
     :source <https://github.com/schemaorg/schemaorg/issues/4851> ;
-    rdfs:comment "Source file(s) from which this work is produced." .
+    rdfs:comment "Location of the source file(s) from which this work is produced (e.g., file URL, repository, archive)." .
