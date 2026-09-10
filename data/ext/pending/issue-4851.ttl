@@ -8,4 +8,5 @@
     :isPartOf <https://pending.schema.org> ;
     :rangeIncludes :URL, :MediaObject ;
     :source <https://github.com/schemaorg/schemaorg/issues/4851> ;
-    rdfs:comment "Location of the source file(s) from which this work is produced (e.g., file URL, repository, archive)." .
+    rdfs:comment "Location of the source file(s) from which this work is produced (e.g., file URL, repository, archive)." ;
+    rdfs:seeAlso <https://doi.org/10.5281/zenodo.20237079> .
