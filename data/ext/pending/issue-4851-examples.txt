@@ -112,3 +112,53 @@ JSON:
   "sourceFile": "https://open-models.org/images/open-source-image.svg"
 }
 </script>
+
+TYPES: #eg-4851a ScholarlyArticle, sourceFile
+
+PRE-MARKUP:
+
+See JSON example.
+
+MICRODATA:
+
+TODO
+
+RDFA:
+
+TODO
+
+JSON:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "ScholarlyArticle",
+  "name": "Open Source 2.0: From Open Source Software to Open Source Resources?",
+  "url": "https://zenodo.org/records/21836217/files/open-source-2.pdf",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "encodingFormat": "application/pdf",
+  "sourceFile": [
+    {
+      "@type": "MediaObject",
+      "contentUrl": "https://zenodo.org/records/21836217/files/open-source-2.qmd",
+      "encodingFormat": "text/markdown"
+    },
+    {
+      "@type": "MediaObject",
+      "contentUrl": "https://zenodo.org/records/21836217/files/references.bib",
+      "encodingFormat": "application/x-bibtex"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://zenodo.org/records/21836217/files/open-source-image.png",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "encodingFormat": "image/png",
+      "sourceFile": {
+        "@type": "MediaObject",
+        "contentUrl": "https://zenodo.org/records/21836217/files/open-source-image.svg",
+        "encodingFormat": "image/svg+xml"
+      }
+    }
+  ]
+}
+</script>
